@@ -7,7 +7,8 @@
 
 NAME	=	my_hunter
 
-SRC	=	main.c
+SRC	=	main.c \
+		game.c
 
 OBJ	=	$(SRC:.c=.o)
 
